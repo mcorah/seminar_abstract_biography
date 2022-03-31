@@ -2,35 +2,34 @@ Title:
 Robot Teams that Cooperate to Search, Track, and Explore
 
 Abstract:
-Processes of observing unknown and uncertain objects and environments are
-pervasive in robotics applications spanning mapping, tracking, inspection, and
+Processes of navigating and observing unknown objects and environments are
+pervasive in robotics tasks spanning mapping, tracking, inspection, and
 cinematography.
-Further, autonomy is especially important to applications such as search and
-rescue, and autonomous operation is critical to enabling mobile robots to
-penetrate through rubble beyond the communication range of human operators.
+Autonomy is also important to application domains such as search and
+rescue where autonomous operation is critical to enabling mobile robots to
+penetrate through rubble outside communication range with human operators.
 This talk will be split into two parts: The first part will focus on methods for
-informative planning and active perception for one or more robots, and the
-latter will discuss the DARPA Subterranean Challenge and my experience competing
-with team CoSTAR.
+informative planning and active perception for individual robots and for teams;
+and the latter part will introduce my ongoing work in the AirLab on multidrone
+reconstruction in which we are seeking to build a sort of "DroneOpticStudio."
 
-Autonomous perception tasks such as mapping a building or tracking targets often
-produce optimization problems that are difficult to solve (e.g. NP-Hard) and yet
-highly structured.
-Taking advantage of structure can greatly simplify these problems such as by
-providing efficient and accurate objective evaluation or efficient distributed
-algorithms with strong suboptimality guarantees.
-The methods we will discuss enable individual robots and teams to navigate and
-observe unknown environments at high speeds while quickly and collectively
-adapting to information from new observations.
+Active perception tasks such as autonomously mapping a building or tracking
+groups of targets often lead to optimization problems that are difficult to
+solve (e.g. NP-Hard) and yet highly structured.
+Taking advantage of structure can reduce computation costs and simplify these
+problems such as by enabling efficient and accurate objective evaluation or
+through efficient distributed algorithms with strong suboptimality guarantees.
+The methods we will discuss enable individual robots to navigate and observe
+unknown environments at high speeds and will enable teams to quickly and
+collectively react to information from new observations.
 
-Still, there are significant gaps between laboratory (and theoretic) settings
-and the field.
-The multi-robot systems deployed in the DARPA Subterranean Challenge Finals
-represent incredible advances in the ability of teams of robots to operate
-autonomously and intelligently in harsh and unstructured underground
-environments.
-Yet, the development of these systems is focused primarily on reliability and
-redundancy, and simple methods that work well enough in practice often prevail
-over seemingly advanced methods.
-This talk will focus on the performance of these multi-robot aerial and ground
-systems in the competition and speculate on what to expect in the near future.
+Since starting at the AirLab, I have been working on developing a
+"DroneOpticStudio" where teams of flying cameras will coordinate to observe
+interactions between groups of people and record video that will be used to
+produce a dense 3D reconstructions of those groups and the people's motions.
+Tracking those people in real time, planning out view points, safely
+coordinating the multi-robot team, and reconstructing scenes are all challenging
+problems that our team is working to solve.
+I will briefly describe the system we are building before discussing role of
+multi-robot coordination in this domain.
+
