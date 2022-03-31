@@ -1,28 +1,36 @@
+Title:
+Robot Teams that Cooperate to Search, Track, and Explore
+
+Abstract:
 Processes of observing unknown and uncertain objects and environments are
-pervasive in robotics applications spanning autonomous mapping, tracking, and
-inspection. Further, autonomy is especially important to applications such as
-search and rescue, and autonomous operation is critical to enabling mobile
-robots to penetrate through rubble beyond the communication range of human
-operators. This talk will be split into two parts: The first part will focus on
-methods for informative planning and active perception for one or more robots,
-and the latter will discuss the DARPA Subterranean Challenge and my experience
-competing with team CoSTAR.
+pervasive in robotics applications spanning mapping, tracking, inspection, and
+cinematography.
+Further, autonomy is especially important to applications such as search and
+rescue, and autonomous operation is critical to enabling mobile robots to
+penetrate through rubble beyond the communication range of human operators.
+This talk will be split into two parts: The first part will focus on methods for
+informative planning and active perception for one or more robots, and the
+latter will discuss the DARPA Subterranean Challenge and my experience competing
+with team CoSTAR.
 
 Autonomous perception tasks such as mapping a building or tracking targets often
 produce optimization problems that are difficult to solve (e.g. NP-Hard) and yet
-highly structured. Taking advantage of structure can greatly simplify these
-problems such as by providing efficient and accurate objective evaluation or
-efficient distributed algorithms with strong suboptimality guarantees. The
-methods we will discuss enable individual robots and teams to navigate and
+highly structured.
+Taking advantage of structure can greatly simplify these problems such as by
+providing efficient and accurate objective evaluation or efficient distributed
+algorithms with strong suboptimality guarantees.
+The methods we will discuss enable individual robots and teams to navigate and
 observe unknown environments at high speeds while quickly and collectively
 adapting to information from new observations.
 
 Still, there are significant gaps between laboratory (and theoretic) settings
-and the field. The multi-robot systems deployed in the DARPA Subterranean
-Challenge Finals represent incredible advances in the ability of teams of robots
-to operate autonomously and intelligently in harsh and unstructured underground
-environments. Yet, the development of these systems is focused primarily on
-reliability and redundancy, and simple methods that work well enough in practice
-often prevail over seemingly advanced methods. This talk will focus on the
-performance of these multi-robot aerial and ground systems in the competition
-and speculate on what to expect in the near future.
+and the field.
+The multi-robot systems deployed in the DARPA Subterranean Challenge Finals
+represent incredible advances in the ability of teams of robots to operate
+autonomously and intelligently in harsh and unstructured underground
+environments.
+Yet, the development of these systems is focused primarily on reliability and
+redundancy, and simple methods that work well enough in practice often prevail
+over seemingly advanced methods.
+This talk will focus on the performance of these multi-robot aerial and ground
+systems in the competition and speculate on what to expect in the near future.
