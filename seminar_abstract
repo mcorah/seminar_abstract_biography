@@ -1,5 +1,5 @@
 Title:
-Robot Teams that Cooperate to Search, Track, and Explore
+Robots, Teams, and Cooperative Perception: From Exploration to Videography
 
 Abstract:
 Processes of navigating and observing unknown objects and environments are
@@ -11,7 +11,8 @@ penetrate through rubble outside communication range with human operators.
 This talk will be split into two parts: The first part will focus on methods for
 informative planning and active perception for individual robots and for teams;
 and the latter part will introduce my ongoing work in the AirLab on multidrone
-reconstruction in which we are seeking to build a sort of "DroneOpticStudio."
+reconstruction where we are working on filming groups of people in the wild with
+exciting implications spanning from team sports to the study of animal groups.
 
 Active perception tasks such as autonomously mapping a building or tracking
 groups of targets often lead to optimization problems that are difficult to
@@ -19,17 +20,18 @@ solve (e.g. NP-Hard) and yet highly structured.
 Taking advantage of structure can reduce computation costs and simplify these
 problems such as by enabling efficient and accurate objective evaluation or
 through efficient distributed algorithms with strong suboptimality guarantees.
-The methods we will discuss enable individual robots to navigate and observe
-unknown environments at high speeds and will enable teams to quickly and
-collectively react to information from new observations.
+In particular, I will present my work developing the first submodular
+optimization algorithms for a large class of perception planning problems that
+scale to large numbers of robots while mainting a constant computation duration.
+The methods I will discuss enable individual robots to navigate and observe
+unknown environments at high speeds and enable teams to quickly and collectively
+react to information from new observations.
 
-Since starting at the AirLab, I have been working on developing a
-"DroneOpticStudio" where teams of flying cameras will coordinate to observe
-interactions between groups of people and record video that will be used to
-produce a dense 3D reconstructions of those groups and the people's motions.
+Since starting at the AirLab, I have been working to develop teams of flying
+cameras that coordinate to observe interactions between groups of people and
+record video to produce a dense 3D reconstructions of those groups their motion.
 Tracking those people in real time, planning out view points, safely
 coordinating the multi-robot team, and reconstructing scenes are all challenging
 problems that our team is working to solve.
 I will briefly describe the system we are building before discussing role of
 multi-robot coordination in this domain.
-
