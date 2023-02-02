@@ -23,7 +23,7 @@ problems such as by enabling efficient and accurate objective evaluation or
 through efficient distributed algorithms with strong suboptimality guarantees.
 In particular, I will present my work developing the first submodular
 optimization algorithms for a large class of perception planning problems that
-scale to large numbers of robots while mainting a constant computation duration.
+scale to large numbers of robots while maintaining a constant computation duration.
 The methods I will discuss enable individual robots to navigate and observe
 unknown environments at high speeds and enable teams to quickly and collectively
 react to information from new observations.
