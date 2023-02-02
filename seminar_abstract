@@ -3,15 +3,24 @@ Robots, Teams, and Cooperative Perception: From Exploration to Videography
 
 Abstract:
 
-Processes of navigating and observing unknown objects and environments are
-pervasive in robotics tasks spanning mapping, tracking, inspection, and
+Over the last ten years, drones have become increasingly integrated into our
+society, industry, and media.
+Most prominently, drones are being used to carry sensors and cameras to film,
+observer, and inspect the world around us.
+As this process goes on, we will see autonomy continue to improve and greater
+numbers of drones involved in more varied and complex tasks.
+
+For autonomous drones, processes of navigating and observing unknown objects and
+environments are pervasive in across mapping, tracking, inspection, and
 cinematography.
 Autonomy is also important to application domains such as search and
 rescue where autonomous operation is critical to enabling mobile robots to
-penetrate through rubble outside communication range with human operators.
-This talk will be split into two parts: The first part will focus on methods for
-informative planning and active perception for individual robots and for teams;
-and the latter part will introduce my ongoing work in the AirLab on multidrone
+penetrate through rubble outside of communication range with human operators.
+This talk will be split into two parts:
+the first part will focus on robots exploring unknown environments and
+applications to problems like search and rescue;
+and the latter part will introduce my work on multi-robot perception planning
+my ongoing work in the AirLab on multidrone
 reconstruction where we are working on filming groups of people in the wild with
 exciting implications spanning from team sports to the study of animal groups.
 
@@ -20,10 +29,11 @@ groups of targets often lead to optimization problems that are difficult to
 solve (e.g. NP-Hard) and yet highly structured.
 Taking advantage of structure can reduce computation costs and simplify these
 problems such as by enabling efficient and accurate objective evaluation or
-through efficient distributed algorithms with strong suboptimality guarantees.
+development of distributed algorithms with strong suboptimality guarantees.
 In particular, I will present my work developing the first submodular
 optimization algorithms for a large class of perception planning problems that
-scale to large numbers of robots while maintaining a constant computation duration.
+scale to large numbers of robots while running with a constant number of
+communication rounds.
 The methods I will discuss enable individual robots to navigate and observe
 unknown environments at high speeds and enable teams to quickly and collectively
 react to information from new observations.
