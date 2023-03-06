@@ -22,6 +22,6 @@ observe and inspect, how can we develop teams coordinate effectively and
 efficiently?
 Toward this end, I will turn to the problem of autonomously filming a group of
 moving people such as a team sport or a dramatic performance.
-By applying the rich theory of submodular and combinatorial optimziation, simple
+By applying the rich theory of submodular and combinatorial optimization, simple
 algorithms can augment individuals that can film autonomously with the ability
 to coordinate with other robots.
