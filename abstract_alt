@@ -1,6 +1,6 @@
 Over the last ten years, drones have become increasingly integrated with our
 society: drones film our sports; they inspect our crops and survey our
-wilderness; drones map out disaster sites.
+geography; drones map out disaster sites.
 Across these domains, drones are key because they are particularly adept at
 maneuvering cameras and sensors to ideal vantage points in diverse environments.
 However, these applications often still involve either manual operation or
@@ -13,18 +13,18 @@ My work focuses on enabling aerial robots to make intelligent decisions about
 how to sense, sample, and observe their environments both individually and in
 groups.
 I will start this talk by discussing active perception with individual
-robots as in the challenging task of searching for survivors in a subterranean
+robots in the context of searching for survivors in a subterranean
 environment---I will discuss how robots can quickly navigate and map such
-environments with careful attention to dynamics, camera view, and interactions
+environments with careful attention to dynamics, camera views, and interactions
 between the two.
 Given individual robots that we have endowed with the ability to intelligently
-observe and inspect, how can we develop teams coordinate effectively and
+observe and inspect, how can we develop teams that coordinate effectively and
 efficiently?
 Toward this end, I will turn to the problem of autonomously filming a group of
-moving people such as a team sport or a dramatic performance.
+moving people as in a team sport or a dramatic performance.
 By applying the rich theory of submodular and combinatorial optimization, simple
-algorithms can augment individuals that can film autonomously with the ability
-to coordinate with other robots.
+algorithms can take individuals that are able to film autonomously and augment
+them with the ability to coordinate in teams.
 Putting this together, my research program will combine single and multi-robot
 autonomy with machine learning and cognizance of humans in the system to realize
-these aerial perception systems.
+scalable aerial perception across these domains.
