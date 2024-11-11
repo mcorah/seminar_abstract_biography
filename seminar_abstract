@@ -1,48 +1,45 @@
 Title:
-Active Perception for Robot Teams: From Visual Search to Videography
+Multi-Robot Active Perception: Toward Autonomous Sports Videography and More!
 
 Abstract:
 
-Over the last ten years, drones have become increasingly integrated into our
-society, industry, and media.
-Most prominently, drones are being used to carry sensors and cameras to film,
-observer, and inspect the world around us.
-As this process goes on, we will see autonomy continue to improve and greater
-numbers of drones involved in more varied and complex tasks.
+Aerial robots (drones) are becoming increasingly integrated into our society,
+industry, and media.
+Prominently, drones are being used to carry sensors and cameras to film,
+observe, and inspect the world around us.
+As this goes on, we can expect to see autonomy continue to improve and greater
+numbers of drones to be involved in more varied and complex tasks.
 
 For autonomous drones, processes of navigating and observing unknown objects and
-environments are pervasive in across mapping, tracking, inspection, and
-cinematography.
-Autonomy is also important to application domains such as search and
-rescue where autonomous operation is critical to enabling mobile robots to
-penetrate through rubble outside of communication range with human operators.
-This talk will be split into two parts:
-the first part will focus on robots exploring unknown environments and
-applications to problems like search and rescue;
-and the latter part will introduce my work on multi-robot perception planning
-my ongoing work in the AirLab on multidrone
-reconstruction where we are working on filming groups of people in the wild with
-exciting implications spanning from team sports to the study of animal groups.
+environments are pervasive across mapping, tracking, inspection, and
+cinematography tasks.
+Often, performing these tasks involves reasoning about what a robot or team of
+robots will observe and quantifying the utility of the robots' actions.
 
-Active perception tasks such as autonomously mapping a building or tracking
-groups of targets often lead to optimization problems that are difficult to
-solve (e.g. NP-Hard) and yet highly structured.
-Taking advantage of structure can reduce computation costs and simplify these
-problems such as by enabling efficient and accurate objective evaluation or
-development of distributed algorithms with strong suboptimality guarantees.
-In particular, I will present my work developing the first submodular
-optimization algorithms for a large class of perception planning problems that
-scale to large numbers of robots while running with a constant number of
-communication rounds.
-The methods I will discuss enable individual robots to navigate and observe
-unknown environments at high speeds and enable teams to quickly and collectively
-react to information from new observations.
+During this talk, I will focus on development of methods for coordinating robots
+for videography tasks such as for filming team sports.
+Today, products from companies such as Skydio and DJI enable individual robots
+to autonomously film and track a moving athlete.
+Yet, it is not obvious how to coordinate a team of robots to film a group of
+moving people.
 
-Since starting at the AirLab, I have been working to develop teams of flying
-cameras that coordinate to observe interactions between groups of people and
-record video to produce a dense 3D reconstructions of those groups their motion.
-Tracking those people in real time, planning out view points, safely
-coordinating the multi-robot team, and reconstructing scenes are all challenging
-problems that our team is working to solve.
-I will briefly describe the system we are building before discussing role of
-multi-robot coordination in this domain.
+Consider the example of a square dance.
+Groups are constantly splitting, joining, and rearranging!
+These phenomena pose challenges for coordination based on formations or
+assignments.
+Instead, we suggest directly optimizing robot views and motions.
+Our approach incorporates two main contributions:
+1) design of view rewards that encourage even distribution of pixels over the
+scene and surfaces of people being filmed and 2) methods for coordinating
+multiple robots and views based on greedy planning and submodular optimization.
+As a product of the view planning process, we are essentially able to solve for
+assignments and formations implicitly, and I will show examples of these
+behaviors from our simulation results.
+
+Finally, in NAPPLab (the Navigation, Aerial-robots, and Perception Planning
+Laboratory) we are actively working on projects involving autonomous
+videography, robot inspection and exploration, and perception-aware
+navigation and control.
+If you are interested in working or collaborating with us, please check out our
+website (www.napplab.org) or email Prof. Micah Corah directly
+(micah.corah@mines.edu).
