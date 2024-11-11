@@ -24,8 +24,11 @@ efficiently?
 Toward this end, I will turn to the problem of autonomously filming a group of
 moving people as in a team sport or a dramatic performance.
 By applying the rich theory of submodular and combinatorial optimization, simple
-algorithms can take individuals that are able to film autonomously and augment
+algorithms can extend individuals that are able to film autonomously and augment
 them with the ability to coordinate in teams.
+I will then present a distributed submodular optimization algorithm I developed
+(Randomized Sequential Partitions or RSP) that enables this approach to scale to
+large numbers of robots.
 Putting this together, my research program will develop scalable single and
 multi-robot aerial perceptual autonomy by combining advances in optimization,
 machine learning, and understanding of physical and human application domains.
